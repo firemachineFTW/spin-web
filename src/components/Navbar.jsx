@@ -19,12 +19,12 @@ function Navbar() {
     
   return (
         <nav className="nav">
-            <Link to='/' className='logo'>
+            <Link to='/Home' className='logo'>
                 <img src={require('../images/4.png')} alt='Logo' className='logo-img'/>
             </Link>
             <ul className={active}>
                 <li className="nav-item">
-                    <Link to="/" className="nav-link">
+                    <Link to="/Home" className="nav-link">
                         Home
                     </Link>
                 </li>
