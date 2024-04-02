@@ -20,7 +20,7 @@ function Navbar() {
   return (
         <nav className="nav">
             <Link to='/Home' className='logo'>
-                <img src={require('../images/4.png')} alt='Logo' className='logo-img'/>
+                <img src={require('../images/LOGO-spin.png')} alt='Logo' className='logo-img'/>
             </Link>
             <ul className={active}>
                 <li className="nav-item">

@@ -1,9 +1,19 @@
 import React from 'react'
+import '../stylesheets/MisionVision.css'
 
 const MisionVision = () => {
   return (
-    <div>
-        <h1>ESTO ES MISION Y VISION</h1>    
+    <div className='container'>
+      <div className='container-mision-vision'>
+        <div className='container-mision'>
+            <h1>MISION</h1>
+            <p className='txt-mision'>Ofrecer soluciones efectivas y sobresalientes, asumiendo las necesidades de los clientes como nuestras</p>
+        </div>
+        <div className='container-vision'>
+          <h1>VISION</h1>
+          <p className='txt-vision'>Posicionar a Soluciones SPIN como la empresa líder ofreciendo la mejor oferta comercial del mercado</p>
+        </div>
+      </div>
     </div>
   )
 }
