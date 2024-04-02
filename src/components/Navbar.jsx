@@ -19,11 +19,9 @@ function Navbar() {
     
   return (
         <nav className="nav">
-            <div className='brand'>
-                <Link to='/' className='logo'>
-                    <img src={require('../images/4.png')} alt='Logo'/>
-                </Link>
-            </div>
+            <Link to='/' className='logo'>
+                <img src={require('../images/4.png')} alt='Logo' className='logo-img'/>
+            </Link>
             <ul className={active}>
                 <li className="nav-item">
                     <Link to="/" className="nav-link">
